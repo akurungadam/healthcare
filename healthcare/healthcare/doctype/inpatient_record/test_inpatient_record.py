@@ -16,6 +16,8 @@ from healthcare.healthcare.doctype.inpatient_record.inpatient_record import (
 from healthcare.healthcare.doctype.lab_test.test_lab_test import create_patient_encounter
 from healthcare.healthcare.utils import get_encounters_to_invoice
 
+EXTRA_TEST_RECORD_DEPENDENCIES = ["Gender"]
+
 
 class TestInpatientRecord(IntegrationTestCase):
 	def test_admit_and_discharge(self):

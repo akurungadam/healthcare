@@ -19,6 +19,8 @@ from healthcare.healthcare.doctype.patient_appointment.patient_appointment impor
 	update_status,
 )
 
+EXTRA_TEST_RECORD_DEPENDENCIES = ["Gender"]
+
 
 class TestPatientAppointment(IntegrationTestCase):
 	def setUp(self):
