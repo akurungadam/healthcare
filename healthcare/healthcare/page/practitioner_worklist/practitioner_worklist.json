@@ -1,0 +1,26 @@
+{
+ "content": null,
+ "creation": "2024-11-10 21:14:42.654488",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2024-11-10 21:14:42.654488",
+ "modified_by": "Administrator",
+ "module": "Healthcare",
+ "name": "practitioner-worklist",
+ "owner": "Administrator",
+ "page_name": "practitioner-worklist",
+ "roles": [
+  {
+   "role": "Physician"
+  },
+  {
+   "role": "Nursing User"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Practitioner Worklist"
+}
